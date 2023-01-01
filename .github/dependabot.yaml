@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem:  "gomod"
+    directory:  "/"
+    schedule:
+      intervale:  "daily"
+
+  - package-ecosystem:  "docker"
+    directory:  "/"
+    schedule:
+      intervale:  "daily"   
